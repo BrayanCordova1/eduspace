@@ -67,6 +67,8 @@ nav ul li a:hover::before {
 
 .ramasmate {
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .caracteristicas {
@@ -263,4 +265,14 @@ nav ul li a:hover::before {
   to {
     transform: translateY(0);
   }
+}
+
+.li-materias{
+  display: block;
+
+}
+.mat-imgs{
+ 
+  width: 500px;
+  height: 300px;
 }
