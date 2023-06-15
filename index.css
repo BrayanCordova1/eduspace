@@ -67,8 +67,7 @@ nav ul li a:hover::before {
 
 .ramasmate {
   padding: 10px;
-  display: flex;
-  justify-content: center;
+  
 }
 
 .caracteristicas {
@@ -267,12 +266,38 @@ nav ul li a:hover::before {
   }
 }
 
-.li-materias{
-  display: block;
+.mat-imgs img{
 
-}
-.mat-imgs{
- 
+  border-right:1000px ;
   width: 500px;
   height: 300px;
+}
+
+.mat-imgs {
+  display: flex;
+  justify-content: center;
+  
+  width: 100%;
+  height: 100%;
+}
+
+.historia p{
+  margin: 20px 20px 20px 20px;
+}
+
+.his-imgs img{
+
+  margin-right:100px ;
+  margin-left:100px ;
+
+  width: 500px;
+  height: 300px;
+}
+
+.his-imgs {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100%;
+  height: 100%;
 }
