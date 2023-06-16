@@ -56,7 +56,7 @@ nav ul li a::before {
   width: 0%;
   background: #7a8d9b;
   height: 5px;
-  top: 0px;
+  top: 0;
   position: absolute;
   transition: width 1s;
 }
@@ -67,7 +67,6 @@ nav ul li a:hover::before {
 
 .ramasmate {
   padding: 10px;
-  
 }
 
 .caracteristicas {
@@ -181,6 +180,12 @@ nav ul li a:hover::before {
   width: 100%;
 }
 
+.cartas-cursos {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
 .cursos div:nth-child(1) {
   text-align: center;
 }
@@ -266,30 +271,32 @@ nav ul li a:hover::before {
   }
 }
 
-.mat-imgs img{
-
-  border-right:1000px ;
+.mat-imgs img {
   width: 500px;
   height: 300px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border-width: 5px;
+  border-style: groove solid;
+  border-color: white;
 }
 
 .mat-imgs {
   display: flex;
   justify-content: center;
-  
   width: 100%;
   height: 100%;
 }
 
-.historia p{
-  margin: 20px 20px 20px 20px;
+.historia p {
+  margin: 20px;
 }
 
-.his-imgs img{
-
-  margin-right:100px ;
-  margin-left:100px ;
-
+.his-imgs img {
+  margin-right: 60px;
+  margin-left: 60px;
   width: 500px;
   height: 300px;
 }
@@ -297,11 +304,11 @@ nav ul li a:hover::before {
 .his-imgs {
   display: flex;
   justify-content: space-between;
-  
-  width: 100%;
+  width: 60%;
   height: 100%;
 }
-.img-solar{
+
+.img-solar {
   display: flex;
   text-align: center;
   align-items: center;
